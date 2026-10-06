@@ -1,0 +1,38 @@
+# Python
+env/
+monday-backend/env/
+__pycache__/
+*.pyc
+
+# Angular / Node
+node_modules/
+.angular/
+
+# OS
+.DS_Store
+Thumbs.db# Python
+monday-backend/env/
+__pycache__/
+*.pyc
+
+# Angular / Node
+monday-angular/node_modules/
+monday-angular/.angular/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+env/
+monday-backend/env/
+__pycache__/
+*.pyc
+
+# Angular / Node
+node_modules/
+.angular/
+
+# OS
+.DS_Store
+Thumbs.db

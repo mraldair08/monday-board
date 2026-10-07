@@ -14,5 +14,5 @@ def get_board():
     return {"boards": boards}
 
 @router.post("/api/boards")
-def create_board(board: Board):
+def create_board_route(board: Board):
     return board

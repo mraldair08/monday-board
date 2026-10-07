@@ -10,13 +10,13 @@ from services.column_service import (
 router = APIRouter()
 
 @router.post("/api/boards/{board_id}/columns")
-def create_column(board_id: str, column: Column):
+def create_column_route(board_id: str, column: Column):
     return create_column(board_id, column)
 
 @router.put("/api/boards/{board_id}/columns/{column_id}")
-def update_column(board_id: str, column_id: str, update: ColumnUpdate):
+def update_column_route(board_id: str, column_id: str, update: ColumnUpdate):
     return update_column(board_id, column_id, update)
 
 @router.delete("/api/boards/{board_id}/columns/{column_id}")
-def delete_column(board_id: str, column_id: str):
+def delete_column_route(board_id: str, column_id: str):
     return delete_column(board_id, column_id)

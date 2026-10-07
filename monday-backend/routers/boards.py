@@ -2,6 +2,9 @@
 from fastapi import APIRouter
 from models import Board
 from data import boards
+from services.board_service import (
+    create_boards
+)
 
 
 router = APIRouter()
@@ -12,5 +15,4 @@ def get_board():
 
 @router.post("/api/boards")
 def create_board(board: Board):
-    boards.append(board)
     return board
